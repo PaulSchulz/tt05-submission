@@ -22,19 +22,24 @@ yaml_version: 4
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       "Paul Schulz"      # Your name
-  title:        "Parallell Processing Node"      # Project title
-  language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  ""      # Short description of what your project does
-
-# Longer description of how the project works. You can use standard markdown format.
+  ### Your nane
+  author:       "Paul Schulz"
+  ### Project title
+  title:        "Parallel Processing Node"
+  ### other examples include Verilog, Amaranth, VHDL, etc
+  language:     "Wokwi"
+  ### Short description of what your project does
+  description:  "Investigation into Parallel Processing"
+  
+  ### Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      Explain how your project works
+      This hardware takes inputs, processes and outputs them asynchronously.
+      This node is designed to be the building block of a much larger system.
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      Explain how to test your project
-
+      Toggle the four(4) 4-bit inputs, and then toggle the clock line to enable processing.
+      
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
     - none
