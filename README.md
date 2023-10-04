@@ -1,10 +1,15 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg)
 
-# What is Tiny Tapeout?
+# Tiny Tapeout 05 Submission
 
-TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
+TinyTapeout is an educational project that aims to make it easier and cheaper to have
+digital designs manufactured on a real chip.
 
 To learn more and get started, visit https://tinytapeout.com.
+
+This repository has been cloned from the Tiny Tapeout 05 Submission Template - https://github.com/TinyTapeout/tt05-submission-template
+
+The following details came from the original README submission template repository.
 
 ## Wokwi Projects
 
@@ -37,4 +42,3 @@ The GitHub action will automatically build the ASIC files using [OpenLane](https
   - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [matt-venn](https://www.linkedin.com/in/matt-venn/)
   - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
   - Twitter [#tinytapeout](https://twitter.com/hashtag/tinytapeout?src=hashtag_click) [@matthewvenn](https://twitter.com/matthewvenn)
-
