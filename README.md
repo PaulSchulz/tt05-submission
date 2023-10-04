@@ -7,7 +7,14 @@ digital designs manufactured on a real chip.
 
 To learn more and get started, visit https://tinytapeout.com.
 
-This repository has been cloned from the Tiny Tapeout 05 Submission Template - https://github.com/TinyTapeout/tt05-submission-template
+This repository has been cloned from the Tiny Tapeout 05 Submission Template
+* https://github.com/TinyTapeout/tt05-submission-template
+
+The Wokwi Project is here:
+* https://wokwi.com/projects/377528062201655297
+
+Final details of the design are automatically published here, via github actions:
+* https://paulschulz.github.io/tt05-submission/
 
 The following details came from the original README submission template repository.
 
