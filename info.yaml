@@ -1,7 +1,7 @@
 --- 
 # Tiny Tapeout project information
 project:
-  wokwi_id:    0        # If using wokwi, set this to your project's ID
+  wokwi_id:  377528062201655297      # If using wokwi, set this to your project's ID
 
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
@@ -16,13 +16,14 @@ project:
 # Keep a track of the submission yaml
 yaml_version: 4
 
-# As everyone will have access to all designs, try to make it easy for someone new to your design to know what
-# it does and how to operate it. This info will be automatically collected and used to make a datasheet for the chip.
+# As everyone will have access to all designs, try to make it easy for someone
+# new to your design to know what it does and how to operate it. This info will
+# be automatically collected and used to make a datasheet for the chip.
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       ""      # Your name
-  title:        ""      # Project title
+  author:       "Paul Schulz"      # Your name
+  title:        "Parallell Processing Node"      # Project title
   language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   description:  ""      # Short description of what your project does
 
