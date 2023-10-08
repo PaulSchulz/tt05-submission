@@ -2,8 +2,7 @@
 # Tiny Tapeout project information
 project:
 # If using wokwi, set this to your project's ID, else 0
-# wokwi_id: 377528062201655297 # Tiny Tapeout 5 - First Attempt
-  wokwi_id: 377987249861643265 # Tiny Tapeout 5 - First Attempt Copy
+  wokwi_id: 377987249861643265 # Tiny Tapeout 5 - First Attempt
 
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
@@ -40,24 +39,26 @@ documentation:
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      Toggle the four(4) 4-bit inputs, and then toggle the clock line to enable processing.
+      Press 'reset' to clear input registers (1-4).
+      Set the input (0-3) toggle the clock-in lines (1-4) to load the 4x 4-bit inputs.
+      Toggle the clock line to process the inputs and set output.
       
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
+    - Input 0 (Red)
+    - Input 1 (Green)
+    - Input 2 (Blue)
+    - Input 3 (Yellow)
+    - Clock In 1
+    - Clock In 2
+    - Clock In 3
+    - Clock In 4
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
     - segment a
     - segment b
     - segment c
-    - segment d
+    - segment d 
     - segment e
     - segment f
     - segment g
@@ -74,7 +75,7 @@ documentation:
     - none
 
 # The following fields are optional
-  tag:          ""      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
+  tag:          "experimental,test,clockless,parallel"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
   external_hw:  ""      # Describe any external hardware needed
   discord:      ""      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository

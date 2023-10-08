@@ -11,9 +11,9 @@ This repository has been cloned from the Tiny Tapeout 05 Submission Template
 * https://github.com/TinyTapeout/tt05-submission-template
 
 The Wokwi Project is here:
-* https://wokwi.com/projects/377528062201655297
+* https://wokwi.com/projects/377987249861643265
 
-Final details of the design are automatically published here, via github actions:
+Design details are automatically published here, via github actions:
 * https://paulschulz.github.io/tt05-submission/
 
 The following details came from the original README submission template repository.
